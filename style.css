@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  font-size: 10px;
+  display: grid;
+  place-content: center;
+  margin: 100px auto 0 auto;
+  grid-template-areas: "square1 square2 square3" "square4 square5 square6" "square7 square8 square9";
+}
+
+.square {
+  height: 10rem;
+  width: 10rem;
+  font-size: 8rem;
+  cursor: default;
+  user-select: none;
+  text-align: center;
+  /* FIXME change values, these are temp */
+}
+
+.square1, .square2, .square3, .square4, .square5, .square6 {
+  border-bottom: 2px solid black;
+}
+
+.square1, .square2, .square4, .square5, .square7, .square8 {
+  border-right: 2px solid black;
+}
+
+.square1 {
+  grid-area: square1;
+}
+
+.square2 {
+  grid-area: square2;
+}
+
+.square3 {
+  grid-area: square3;
+}
+
+.square4 {
+  grid-area: square4;
+}
+
+.square5 {
+  grid-area: square5;
+}
+
+.square6 {
+  grid-area: square6;
+}
+
+.square7 {
+  grid-area: square7;
+}
+
+.square8 {
+  grid-area: square8;
+}
+
+.square9 {
+  grid-area: square9;
+}
